@@ -1,0 +1,218 @@
+._1-16 {
+  width: 34px; }
+
+.push_1-16 {
+  margin-left: 79px !important; }
+
+.tech-tree-module,
+._2-16 {
+  width: 98px; }
+
+.push_2-16 {
+  margin-left: 143px !important; }
+
+._3-16 {
+  width: 162px; }
+
+.push_3-16 {
+  margin-left: 207px !important; }
+
+._4-16 {
+  width: 226px; }
+
+.push_4-16 {
+  margin-left: 271px !important; }
+
+._5-16 {
+  width: 290px; }
+
+.push_5-16 {
+  margin-left: 335px !important; }
+
+._6-16 {
+  width: 354px; }
+
+.push_6-16 {
+  margin-left: 399px !important; }
+
+._7-16 {
+  width: 418px; }
+
+.push_7-16 {
+  margin-left: 463px !important; }
+
+.tech-tree-module__overlay,
+._8-16 {
+  width: 482px; }
+
+.push_8-16 {
+  margin-left: 527px !important; }
+
+._9-16 {
+  width: 546px; }
+
+.push_9-16 {
+  margin-left: 591px !important; }
+
+._10-16 {
+  width: 610px; }
+
+.push_10-16 {
+  margin-left: 655px !important; }
+
+._11-16 {
+  width: 674px; }
+
+.push_11-16 {
+  margin-left: 719px !important; }
+
+._12-16 {
+  width: 738px; }
+
+.push_12-16 {
+  margin-left: 783px !important; }
+
+._13-16 {
+  width: 802px; }
+
+.push_13-16 {
+  margin-left: 847px !important; }
+
+._14-16 {
+  width: 866px; }
+
+.push_14-16 {
+  margin-left: 911px !important; }
+
+._15-16 {
+  width: 930px; }
+
+.push_15-16 {
+  margin-left: 975px !important; }
+
+._16-16 {
+  width: 994px; }
+
+.push_16-16 {
+  margin-left: 1039px !important; }
+
+.tech-tree__level,
+.grid {
+  margin: auto;
+  width: 1054px;
+  font-size: 0; }
+
+.grid--centered {
+  text-align: center; }
+
+.tech-tree-module, .tech-tree-module__overlay,
+.g {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left; }
+
+body {
+  background-color: #2D3E50;
+  font-family: 'Open Sans', sans-serif; }
+
+.tech-tree {
+  margin-top: 20px; }
+
+connection {
+  border: 8px solid;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  pointer-events: none;
+  opacity: 0.3;
+  transition: all 0.4s ease-out; }
+  connection.connection--dark {
+    opacity: 1.0; }
+  connection.connection--a {
+    color: #2E88C4; }
+  connection.connection--b {
+    color: #8E60D7; }
+  connection.connection--c {
+    color: #E85770; }
+  connection.connection--d {
+    color: #5BC672; }
+
+.tech-tree-module {
+  height: 100px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s ease-out;
+  position: relative; }
+  .tech-tree-module__overlay {
+    position: fixed;
+    display: none;
+    top: 10px;
+    bottom: 10px;
+    margin-left: 113px;
+    background-color: #F7F7F7;
+    border-radius: 6px; }
+    .tech-tree-module__overlay--active {
+      display: block;
+      z-index: 2; }
+    .tech-tree-module__overlay h1 {
+      margin: 0;
+      padding: 0.5rem; }
+    .tech-tree-module__overlay h2 {
+      margin: 0; }
+  .tech-tree-module__content {
+    color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .tech-tree-module:hover {
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 0 0 0px 5px #00BCFF;
+    opacity: 1.0; }
+  .tech-tree-module__header {
+    height: 26px; }
+  .tech-tree-module__identifier {
+    font-size: 0.8rem;
+    text-align: center; }
+  .tech-tree-module__progress {
+    width: auto;
+    display: block;
+    height: 0.5rem;
+    margin-bottom: 0.25rem;
+    -webkit-appearance: none;
+    border: none; }
+    .tech-tree-module__progress::-webkit-progress-bar {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 2px;
+      padding: 1px; }
+    .tech-tree-module__progress::-webkit-progress-value {
+      background: #00BCFF;
+      border-radius: 2px; }
+
+.bg--type-a {
+  background-color: #2E88C4; }
+
+.bg--type-b {
+  background-color: #8E60D7; }
+
+.bg--type-c {
+  background-color: #E85770; }
+
+.bg--type-d {
+  background-color: #5BC672; }
+
+.cover-all {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: none; }
